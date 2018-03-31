@@ -1,0 +1,71 @@
+body{
+  margin: 0; padding: 0;
+  background: #ffffff url("../img/uefa.jpg ") no-repeat center center fixed;
+  background-size: cover; font-family: 'Oswald', sans-serif;
+}
+
+.round{
+  position: absolute; display: inline-block; font-size: 4vh; color: white;
+}
+
+.round1L{ left: 7vw;}
+.round1R{ right: 7vw;}
+.round2L{ left: 19vw;}
+.round2R{ right: 19vw;}
+.round3L{ left: 33vw;}
+.round3R{ right: 33vw;}
+
+.container{
+  position: absolute; top: 6vh; width: 100vw; height: 79vh;
+}
+
+.team{
+  /*border: 1px solid black;*/ background-color: white; display: inline-block; position: absolute;
+  width: 10vw; height: 17vh; transition: all 1s;
+}
+
+.spot1{ top: 6vh; left: 5vw;}
+.spot2{ top: 28vh; left: 5vw;}
+.spot3{ top: 50vh; left: 5vw;}
+.spot4{ top: 72vh; left: 5vw;}
+.spot5{ top: 6vh; right: 5vw;}
+.spot6{ top: 28vh; right: 5vw;}
+.spot7{ top: 50vh; right: 5vw;}
+.spot8{ top: 72vh; right: 5vw;}
+.spot9{ top: 21vh; left: 18vw;}
+.spot10{ top: 57vh; left: 18vw;}
+.spot11{ top: 21vh; right: 18vw;}
+.spot12{ top: 57vh; right: 18vw;}
+.spot13{ top: 39vh; left: 32vw;}
+.spot14{ top: 39vh; right: 32vw;}
+.spot15{ top: 20vh; left: 45vw;}
+
+.opp{
+  border: 1px solid black; position: absolute; width: 7vw; height: 12vh; text-align: center;
+  font-size: 65px; padding: 0vh 0vw 2vh 0vw;
+}
+
+.opp1{ top: 77vh; left: 30vw;}
+.opp2{ top: 77vh; right: 30vw;}
+
+.vs{
+  position: absolute; top: 5vh; left: 47vw; font-size: 70px;
+}
+
+.winner{
+  position: absolute; top: 5vh; left: 43vw; font-size: 70px;
+}
+
+.play{
+  position: absolute; top: 81vh; left: 47vw;
+}
+
+.playing{
+  position: absolute; width: 14vw; height: 9vh; text-align: center; font-size: 158%;
+}
+
+.playing.one{ top: 10vh; left: 26vw;}
+.playing.two{ top: 10vh; right: 26vw;}
+
+.hide{ display:none;}
+
